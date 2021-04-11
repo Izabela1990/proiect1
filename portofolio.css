@@ -1,0 +1,76 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: sans-serif;
+}
+
+header{
+    background-color: orange;
+    padding: 1em;
+    position: fixed;
+    width: 100vw;
+    z-index: 1;
+
+
+}
+
+ nav ul{
+     display: flex;
+     justify-content: flex-end;
+     list-style-type: none;
+
+
+}
+
+nav ul a {
+    color: white;
+    margin: 1em;
+    text-decoration: none;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-image: url(headerback.jpg) ;
+    background-size: cover;
+   
+
+}
+
+.overlay{
+height: 100%;
+background-color:blue;
+width: 100%;
+opacity: 0.3;
+position: absolute;
+
+}
+
+article{
+    z-index: 1;
+}
+
+#gri{
+    background-color: grey;
+    color: white;
+    z-index: 1;
+    position: absolute;
+    top: 20%;
+    left: 20%;
+    padding: 1em;
+
+
+}
+
+#gri div{
+   /* position: relative;
+    left: 2em;
+    top: 1em;*/
+    transform: translate(1em,1em);
+
+    
+}
+
